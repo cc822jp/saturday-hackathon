@@ -1,0 +1,17 @@
+{
+  "name": "iguchi-butter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "rm -rf dist && parcel ./src/index.html --no-source-maps --no-cache",
+    "format": "prettier --write \"src/**/*.*\""
+  },
+  "keywords": [],
+  "author": "cc822jp",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}
